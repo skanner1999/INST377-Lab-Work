@@ -1,7 +1,5 @@
 #! /bin/sh
 
-
-
 echo "Pick a file to add"
 read file
 
