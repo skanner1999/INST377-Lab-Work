@@ -120,6 +120,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        width: 50%;
       }
     
       
@@ -129,6 +130,7 @@
         flex-wrap: wrap;
         font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
         margin:10px;
+        width: 50%;
       }
       
       .title{
@@ -138,6 +140,7 @@
         padding: 10px 15px;
         margin: 0;
         margin-bottom: 5px;
+        width: 50%;
       }
     
       .menu-container {
@@ -146,6 +149,7 @@
         padding: 20px 0;
         display: flex;
         justify-content: center;
+        width: 50%;
       }
       
       .menu {
@@ -153,15 +157,18 @@
         width: 900px;
         display: flex;
         justify-content: space-around;
+        width: 50%;
       }
     
       .links {
         display: flex;
         justify-content: flex-end;
+        width: 50%;
       }
     
       .login {
         margin-left: 20px;
+        width: 50%;
       }
     
       .header-container {
@@ -169,6 +176,7 @@
         background-color: #D6E9FE;
         display: flex;
         justify-content: center;
+        width: 50%;
       }
       
       .header {
@@ -177,11 +185,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 50%;
       }
     
       .photo-grid-container {
         display: flex;
         justify-content: center;
+        width: 50%;
       }
       
       .photo-grid {
@@ -191,31 +201,37 @@
         flex-wrap: wrap;
         flex-direction: row-reverse;
         align-items: center;
+        width: 50%;
       }
       
       .first-item {
         order: 1;
+        width: 50%;
       }
       
       .last-item {
         order: -1;
+        width: 50%;
       }
     
       .photo-grid-item {
         border: 1px solid #fff;
         width: 300px;
         height: 300px;
+        width: 50%;
       }
     
       .githubLink,
       .subscribe {
       align-self: flex-end;
       margin-bottom: 20px;
+      width: 50%;
       }
     
       .footer {
         display: flex;
         justify-content: space-between;
+        width: 50%;
       }
       
       .footer-item {
@@ -223,6 +239,7 @@
         background-color: #D6E9FE;
         height: 200px;
         flex: 1;
+        width: 50%;
       }
     
       .footer-one,
@@ -230,6 +247,7 @@
       background-color: #5995DA;
       flex: initial;
       width: 300px;
+      width: 50%;
       }
 
 
