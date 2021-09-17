@@ -102,16 +102,3 @@
   flex: initial;
   width: 300px;
   }
-
-  /* Mobile Styles */
-@media only screen and (max-width: 400px) {
-
-  .menu-container,
-  .header-container,
-  .photo-grid-container,
-  .footer {
-    width: 50%;
-  }
-
-  
-}
