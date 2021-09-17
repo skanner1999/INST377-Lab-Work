@@ -10,23 +10,6 @@
     flex-wrap: wrap;
   }
 
-  .wrapper {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-    margin:10px;
-  }
-  
-  .title{
-    display: inline-block;
-    background-color: rgba(0,139, 139,0.8);
-    border-radius: 4px;
-    padding: 10px 15px;
-    margin: 0;
-    margin-bottom: 5px;
-  }
-
   .menu-container {
     color: #fff;
     background-color: #5995DA;  /* Blue */
@@ -43,6 +26,7 @@
   }
 
   .links {
+    border: 1px solid #fff;
     display: flex;
     justify-content: flex-end;
   }
