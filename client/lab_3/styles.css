@@ -8,6 +8,7 @@
     background-color: darkcyan;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: auto;
   }
 
   .menu-container {
