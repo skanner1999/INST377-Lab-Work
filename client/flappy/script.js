@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('keyup', control)
 
-    function createObstacle() {
+    function generateObstacle() {
         let obstacleLeft = 500
         let randomHieght = Math.random() * 60
         let obstacleBottom = randomHieght
@@ -48,6 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let timerID = setInterval(moveObstacle, 20)
     }
     
-    createObstacle()
+    generateObstacle()
 
 })
