@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const bird = document.querySelector('.bird')
-    const gameDisplay = document.querySelector('.game-container')
+    const game_display = document.querySelector('.game-container')
     const ground = document.querySelector('.ground')
 
     let birdLeft = 220
@@ -31,12 +31,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('keyup', control)
 
-    function generateObstacle() {
+    function createObstacle() {
+        let obstacleLeft = 500
+        let randomHieght = Math.random() * 60
+        let obstacleBottom = randomHieght
         const obstacle = document.createElement('div')
         obstacle.classList.add('obstacle')
-        gameDisplay.appendChild(obstacle)
+        game_display.appendChild(obstacle)
+        obstacle.style.left = obstacleLeft + 'px'
+        obstacle.style.bottom = obstacleBottom + 'px'
+
+        function moveObstacle() {
+            obstacleLeft -= 2
+            obstacle.style.left = obstacleLeft + 'px'
+        }
+        let timerID = setInterval(moveObstacle, 20)
     }
     
-    generateObstacle()
+    createObstacle()
 
 })
