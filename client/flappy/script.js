@@ -4,11 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const game_display = document.querySelector('.game-container')
     const ground = document.querySelector('.ground')
 
-    let birdleft = 220
+    let birdLeft = 220
     let birdBottom= 100
+    let gravity = 2
 
     function startGame() {
+        birdBottom -= gravity
         bird.style.bottom = birdBottom + 'px'
+        bird.style.left = birdLeft + 'px'
     }
-    startGame()
+    let timerID = setInterval(startGame, 20)
+
 })
