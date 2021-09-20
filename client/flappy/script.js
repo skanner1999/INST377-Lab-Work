@@ -30,4 +30,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.addEventListener('keyup', control)
+
+    function createObstacle() {
+        let obstacleLeft = 500
+        let randomHieght = Math.random() * 60
+        let obstacleBottom = randomHieght
+        const obstacle = document.createElement('div')
+        obstacle.classList.add('obstacle')
+        game_display.appendChild(obstacle)
+        obstacle.style.left = obstacleLeft + 'px'
+        obstacle.style.bottom = obstacleBottom + 'px'
+
+        function moveObstacle() {
+            obstacleLeft -= 2
+            obstacle.style.left = obstacleLeft + 'px'
+        }
+        let timerID = setInterval(moveObstacle, 20)
+    }
+    
+    createObstacle()
+
 })
