@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const bird = document.querySelector('.bird')
-    const game_display = document.querySelector('.game-container')
+    const gameDisplay = document.querySelector('.game-container')
     const ground = document.querySelector('.ground')
 
     let birdLeft = 220
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function generateObstacle() {
         const obstacle = document.createElement('div')
         obstacle.classList.add('obstacle')
-        game_display.appendChild(obstacle)
+        gameDisplay.appendChild(obstacle)
     }
     
     generateObstacle()
