@@ -17,13 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let timerID = setInterval(startGame, 20)
 
     function control(e) {
-        if (e.keycode === 32) {
+        if (e.keyCode === 32) {
             jump()
         }
     }
 
     function jump() {
-        if (birdBottom < 500) birdBottom += 50
+        if (birdBottom < 500) {
+            birdBottom += 50
+        }
         bird.style.bottom = birdBottom + 'px'
     }
 
