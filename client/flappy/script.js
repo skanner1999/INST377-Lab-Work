@@ -50,6 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(timerID)
                 game_display.removeChild(obstacle)
             }
+            if (birdBottom === 0) {
+                gameOver()
+            }
         }
         let timerID = setInterval(moveObstacle, 20)
         setTimeout(createObstacle, 3000)
