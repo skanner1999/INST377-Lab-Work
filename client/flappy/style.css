@@ -28,7 +28,7 @@
 }
 
 .obstacle { 
-    background-color: rgb(29, 231, 29);
+    background-image: url('images/flappybird-pipe.png');
     height: 300px;
     width: 60px;
     position: absolute;
