@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .top {
+    background-color: darkcyan;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .login {
+    margin-left: 20px;
+  }
+
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel {
+    overflow: hidden;
+  }
+
+  .carousel .carousel_item,
+  .carousel .carousel_item--hidden {
+    display: none;
+  }
+  
+
+  .carousel .carousel_item--visible {
+    display: block;
+  }
+  
+
+  .githubLink,
+  .subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-one,
+  .footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+  }
+
+  #button--previous {
+    border-radius: 100px;
+    border: 0;
+    font-weight: bold;
+  }
+
+  #button--next {
+    border-radius: 100px;
+    border: 0;
+    font-weight: bold;
+  }
+
+  #button--next:focus {
+    border-color: orange;
+    display: inline-block;
+  }
+
+  #button--previous:focus {
+    border-color: orange;
+    display: inline-block;
+  }
