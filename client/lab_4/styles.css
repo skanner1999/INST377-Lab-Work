@@ -99,21 +99,31 @@
   #button--previous {
     border-radius: 100px;
     border: 0;
+    height: 25px;
+    width: 50px;
     font-weight: bold;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
   }
 
   #button--next {
     border-radius: 100px;
     border: 0;
+    height: 25px;
+    width: 50px;
     font-weight: bold;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
   }
 
   #button--next:focus {
-    border-color: orange;
     display: inline-block;
   }
 
   #button--previous:focus {
-    border-color: orange;
     display: inline-block;
   }

@@ -9,8 +9,10 @@ document.
   .addEventListener("click", function() {
       console.log("next")
     moveToNextSlide();
-    document.getElementById('button--previous').style.background = 'lightgrey'
+    document.getElementById('button--previous').style.background = 'lightgrey';
     document.getElementById('button--next').style.background = 'orange';
+    document.getElementById('button--next').style.borderColor = 'green';
+    document.getElementById('button--previous').style.borderColor = 'white';
   });
 
 document.
@@ -20,6 +22,8 @@ document.
     moveToPrevSlide();
     document.getElementById('button--next').style.background = 'lightgrey';
     document.getElementById('button--previous').style.background = 'orange';
+    document.getElementById('button--previous').style.borderColor = 'green';
+    document.getElementById('button--next').style.borderColor = 'white';
   });
 
 function updateSlidePosition() {
